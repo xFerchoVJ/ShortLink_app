@@ -1,0 +1,5 @@
+var divLink = document.querySelector('#short-link');
+
+var html = '<%= j render "link", link: @link.shortener_url %>'
+
+divLink.innerHTML = html;
